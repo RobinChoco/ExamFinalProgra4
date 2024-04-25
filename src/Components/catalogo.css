@@ -1,0 +1,36 @@
+.catalogo {
+  margin: 20px;
+  display: flex;
+  justify-content: center;
+}
+
+.peliculas-lista {
+  display: flex;
+  flex-wrap: wrap; 
+  gap: 10px; 
+}
+
+.pelicula {
+  flex: 0 0 calc(20% - 20px); 
+  text-align: center;
+}
+
+.pelicula img {
+  width: 100%;
+  height: 300px;
+  border-radius: 4px;
+}
+
+.pelicula p {
+  margin-top: 25px;
+  font-size: 16px;  
+}
+
+@media screen and (max-width: 768px) {
+  .pelicula {
+    flex-basis: calc(50% - 10px);
+  }
+}
+
+
+  
